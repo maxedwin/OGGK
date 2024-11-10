@@ -1,0 +1,9 @@
+.list-group-item.active:hover,{
+            background-color: #aed248; !important;
+            border-color: #aed248;     !important;
+          }
+#item_to_add:hover{
+	background-color: #4B8DF8;
+	color: #fff;
+	cursor: pointer; cursor: hand;
+}

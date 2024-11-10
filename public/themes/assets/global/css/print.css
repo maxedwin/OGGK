@@ -1,0 +1,62 @@
+@media print
+{    
+    .no-print, .no-print *
+    {
+        display: none !important;
+    }
+    h1 , h2 , p , table , tr , td , h4 , b{
+            font-size: 8px;
+            margin: 0px;
+            padding: 0px;
+    }
+    table{
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+    .titulo{
+    font-size: 8px;
+    width: 100%;
+    text-align: center;
+    font-weight: bolder;
+
+    }
+    .pa{
+    font-size: 8px;
+    width: 100%;
+    text-align: left;
+    }
+    .col-md-12{
+        margin: 0px;
+        padding: 0px;
+    }
+     
+  body{
+       font-family:arial !important;;
+        margin: 0px;
+        padding: 0px;
+    }
+    #info{
+        width:100%;
+    }
+    #info .wp{
+        float: left;   
+        text-align: center;
+    }
+    #info .wp h2{
+    }
+   
+    #clearfix:after {
+        display: block;
+        height: 0;
+        clear: both;
+        visibility: hidden;
+    }
+    #total h2{
+        padding-left:1px;
+        margin:0px; 
+        font-size: 8px;
+    }
+    .total p{float:right;margin:0px;margin-right: 1px;}
+    
+}
